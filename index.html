@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Hello!</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- import the webpage's stylesheet -->
+		<link rel="stylesheet" href="/styles.css" />
+
+		<!-- import the webpage's javascript file -->
+		<script src="/script.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<form id="form" class="form">
+				<h2>
+					Register with Us!
+				</h2>
+				<div class="form-control">
+					<label for="username">Username</label>
+					<input
+						id="username"
+						type="text"
+						placeholder="Enter your username"
+					/>
+					<small class="username">Error Message</small>
+				</div>
+				<div class="form-control">
+					<label for="email">Email</label>
+					<input
+						id="email"
+						type="text"
+						placeholder="Enter your email"
+					/>
+					<small class="email">Error Message</small>
+				</div>
+				<div class="form-control">
+					<label for="password">Password</label>
+					<input
+						id="password"
+						type="password"
+						placeholder="Enter your password"
+					/>
+					<small class="password">Error Message</small>
+				</div>
+				<div class="form-control">
+					<label for="password2">Confirm Password</label>
+					<input
+						id="password2"
+						type="password"
+						placeholder="Re-enter your password"
+					/>
+					<small class="password2">Error Message</small>
+				</div>
+				<button type="Submit">
+					Submit
+				</button>
+			</form>
+		</div>
+		<!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+		<div
+			class="glitchButton"
+			style="position: fixed; top: 20px; right: 20px;"
+		></div>
+		<script src="https://button.glitch.me/button.js"></script>
+	</body>
+</html>
